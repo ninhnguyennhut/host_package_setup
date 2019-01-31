@@ -11,3 +11,9 @@ sudo apt-get install bison flex swig -y
 
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm
 
+
+#stlink stm32f4 black board
+SWDIO --- Pin 7, PA13/TMS/JTMS_SWDIO
+GND ----- Pin 4, GND
+SWCLK --- Pin9, PA14/TCK/JTMS_SWCLK
+3.3V ---- Pin 1, 3V3
