@@ -17,3 +17,17 @@ SWDIO --- Pin 7, PA13/TMS/JTMS_SWDIO
 GND ----- Pin 4, GND
 SWCLK --- Pin9, PA14/TCK/JTMS_SWCLK
 3.3V ---- Pin 1, 3V3
+
+install cuda for dell 7559 gtx960M
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+sudo apt update
+
+sudo ubuntu-drivers autoinstall
+reboot
+
+sudo apt install nvidia-cuda-toolkit gcc-6
+
+nvcc --version
+
