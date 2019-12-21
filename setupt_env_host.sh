@@ -14,6 +14,8 @@ sudo apt-get install libudev-dev libinput-dev libts-dev libxcb-xinerama0-dev lib
 
 #yocto package install
 
+sudo apt-get install python python3 python2.7
+
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm
 
 Ubuntu 18.04.2 tested build opencv
