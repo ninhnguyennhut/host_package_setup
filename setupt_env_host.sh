@@ -83,3 +83,19 @@ sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
 
 
 
+
+
+sudo apt install curl
+
+Once that’s done, download and run the Node.js 8.x installer:
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+
+The installer will create a source file for the official repo, pulls down the signing key and even does you a solid by running an apt update for you.
+
+All that’s left to do is to install (or upgrade to) the latest version of Node.js 8.x:
+
+sudo apt install nodejs
+
+
+
